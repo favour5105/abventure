@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AB Tiler | Favour Moses</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #f5f5f5, #e7e7e7);
+    }
+
+    .hero-bg {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        transition: 0.3s ease;
+    }
+
+    .section-title {
+        color: #1a1a1a;
+        border-left: 6px solid orange;
+        padding-left: 10px;
+    }
+
+    .tile-img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .contact-box {
+        background: linear-gradient(135deg, #ff6b00, #ff8c42);
+    }
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="bg-black text-white flex justify-between p-5">
+    <h1 class="text-2xl font-bold">AB TILER</h1>
+    <a href="#contact" class="bg-orange-500 px-4 py-2 rounded">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero-bg h-screen flex items-center text-white px-6">
+    <div>
+        <h1 class="text-5xl md:text-7xl font-bold">
+            PERFECT TILE WORK
+        </h1>
+        <p class="mt-4 max-w-lg">
+            Professional tiling services by <b>Favour Moses</b>. 
+            Bringing beauty and durability to Nigerian homes.
+        </p>
+
+        <a href="#contact" class="inline-block mt-6 bg-orange-500 px-6 py-3 rounded-full">
+            Contact Me
+        </a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="py-16 px-6">
+    <h2 class="text-4xl font-bold mb-10 section-title">My Services</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Floor -->
+        <div class="bg-white rounded-xl shadow-lg card">
+            <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101"
+                 class="tile-img w-full">
+            <div class="p-5">
+                <h3 class="text-xl font-bold">Floor Tiling</h3>
+                <p>Clean and modern floor tiles perfect for Nigerian homes.</p>
+            </div>
+        </div>
+
+        <!-- Wall -->
+        <div class="bg-white rounded-xl shadow-lg card">
+            <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed"
+                 class="tile-img w-full">
+            <div class="p-5">
+                <h3 class="text-xl font-bold">Wall Tiling</h3>
+                <p>Bathroom and kitchen wall tiles with premium finishing.</p>
+            </div>
+        </div>
+
+        <!-- Worker -->
+        <div class="bg-white rounded-xl shadow-lg card">
+            <img src="https://images.unsplash.com/photo-1590650213165-c1fef80648c3"
+                 class="tile-img w-full">
+            <div class="p-5">
+                <h3 class="text-xl font-bold">Professional Work</h3>
+                <p>Handled by expert tiler <b>Favour Moses</b>.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- WHY CHOOSE ME -->
+<section class="py-16 px-6 bg-orange-100">
+    <h2 class="text-4xl font-bold mb-10 section-title">Why Choose Me</h2>
+
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+
+        <div>
+            <h3 class="text-xl font-bold">✔ Clean Work</h3>
+            <p>No mess, neat finishing</p>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-bold">✔ Affordable</h3>
+            <p>Good price for quality job</p>
+        </div>
+
+        <div>
+            <h3 class="text-xl font-bold">✔ Durable</h3>
+            <p>Strong tiles that last long</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-16 px-6 text-white contact-box text-center">
+
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+
+    <p class="mb-3">📧 fav212222@gmail.com</p>
+    <p class="mb-6">📱 08120165105</p>
+
+    <a href="https://wa.me/2348120165105"
+       class="bg-black px-6 py-3 rounded-full inline-block">
+        Chat on WhatsApp
+    </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center p-4">
+    © 2026 AB Tiler | Favour Moses
+</footer>
+
+</body>
+</html>
